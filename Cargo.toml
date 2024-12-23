@@ -36,6 +36,7 @@ members = [
 	"primitives/self-contained",
 	"template/node",
 	"template/runtime",
+	"template/pallets/template",
 	"precompiles",
 	"precompiles/macro",
 	"precompiles/tests-external",
@@ -203,6 +204,8 @@ pallet-hotfix-sufficients = { path = "frame/hotfix-sufficients", default-feature
 precompile-utils = { path = "precompiles", default-features = false }
 # Frontier Template
 frontier-template-runtime = { path = "template/runtime", default-features = false }
+
+pallet-template =  { path = "template/pallets/template", default-features = false }
 
 [profile.release]
 # Substrate runtime requires unwinding.
